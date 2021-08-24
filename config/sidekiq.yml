@@ -1,0 +1,18 @@
+:pidfile: ./tmp/pids/sidekiq.pid
+:daemon: true
+ 
+development:
+  :verbose: true
+  :logfile: ./log/development_sidekiq.log
+  :concurrency: 7
+  :timeout: 30
+  :queues:
+    - alert
+ 
+production:
+  :verbose: false
+  :logfile: ./log/production_sidekiq.log
+  :concurrency: 7
+  :timeout: 5
+  :queues:
+    - alert

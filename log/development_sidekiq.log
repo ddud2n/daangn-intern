@@ -1,0 +1,114 @@
+# Logfile created on 2021-08-21 10:54:57 +0000 by logger.rb/66358
+I, [2021-08-21T10:55:03.921901 #21409]  INFO -- : Booted Rails 6.0.3.2 application in development environment
+I, [2021-08-21T10:55:03.922028 #21409]  INFO -- : Running in ruby 2.6.5p114 (2019-10-01 revision 67812) [x86_64-linux]
+I, [2021-08-21T10:55:03.922058 #21409]  INFO -- : See LICENSE and the LGPL-3.0 for licensing details.
+I, [2021-08-21T10:55:03.922090 #21409]  INFO -- : Upgrade to Sidekiq Pro for more features and support: https://sidekiq.org
+D, [2021-08-21T10:55:03.924233 #21409] DEBUG -- : Client Middleware: 
+D, [2021-08-21T10:55:03.924274 #21409] DEBUG -- : Server Middleware: 
+I, [2021-08-21T10:55:03.924300 #21409]  INFO -- : Starting processing, hit Ctrl-C to stop
+D, [2021-08-21T10:55:03.924396 #21409] DEBUG -- : {:queues=>["alert"], :labels=>[], :concurrency=>7, :require=>".", :environment=>nil, :timeout=>30, :poll_interval_average=>nil, :average_scheduled_poll_interval=>5, :error_handlers=>[#<Sidekiq::ExceptionHandler::Logger:0x00005649bb373ee8>], :death_handlers=>[], :lifecycle_events=>{:startup=>[], :quiet=>[], :shutdown=>[], :heartbeat=>[]}, :dead_max_jobs=>10000, :dead_timeout_in_seconds=>15552000, :reloader=>#<Sidekiq::Rails::Reloader @app=GoormRailsApp::Application>, :pidfile=>"./tmp/pids/sidekiq.pid", :daemon=>true, :production=>{:verbose=>false, :logfile=>"./log/production_sidekiq.log", :concurrency=>7, :timeout=>5, :queues=>["alert"]}, :verbose=>true, :logfile=>"./log/development_sidekiq.log", :config_file=>"./config/sidekiq.yml", :strict=>true, :tag=>"daangn_intern", :identity=>"goorm:21409:68fbb5d82bd0"}
+I, [2021-08-21T10:55:18.607356 #21409]  INFO -- : start
+D, [2021-08-21T10:55:18.659715 #21409] DEBUG -- : enqueued schedule: {"retry":1,"queue":"alert","class":"ActiveJob::QueueAdapters::SidekiqAdapter::JobWrapper","wrapped":"AlertJob","args":[{"job_class":"AlertJob","job_id":"8d96a943-d67c-4f4b-bb27-9aeb98d8f517","provider_job_id":null,"queue_name":"alert","priority":null,"arguments":["{ \"username\": \"sujin\", \"word\":\"맥북\", \"title\": \"[맥북 키워드알람]\",\"description\": \"이수진님의 글제목:맥북\" }"],"executions":0,"exception_executions":{},"locale":"en","timezone":"UTC","enqueued_at":"2021-08-21T10:51:56Z"}],"jid":"25aa54216eabc9bec3f4472a","created_at":1629543116.9429607}
+I, [2021-08-21T10:55:19.078170 #21409]  INFO -- : done
+I, [2021-08-21T10:55:56.100413 #21409]  INFO -- : start
+D, [2021-08-21T10:55:56.104328 #21409] DEBUG -- : enqueued schedule: {"retry":1,"queue":"alert","class":"ActiveJob::QueueAdapters::SidekiqAdapter::JobWrapper","wrapped":"AlertJob","args":[{"job_class":"AlertJob","job_id":"86ca4086-5f36-415b-aae3-41337e7fb716","provider_job_id":null,"queue_name":"alert","priority":null,"arguments":["{ \"username\": \"sujin\", \"word\":\"맥북\", \"title\": \"[맥북 키워드알람]\",\"description\": \"이수진님의 글제목:맥북팔아여\" }"],"executions":0,"exception_executions":{},"locale":"en","timezone":"UTC","enqueued_at":"2021-08-21T10:55:48Z"}],"jid":"ab126d222b2dfab9cecba961","created_at":1629543348.1360018}
+I, [2021-08-21T10:55:56.355542 #21409]  INFO -- : done
+I, [2021-08-21T10:57:15.644082 #21409]  INFO -- : start
+I, [2021-08-21T10:57:16.045339 #21409]  INFO -- : done
+I, [2021-08-21T11:06:05.392416 #21648]  INFO -- : Booted Rails 6.0.3.2 application in development environment
+I, [2021-08-21T11:06:05.392551 #21648]  INFO -- : Running in ruby 2.6.5p114 (2019-10-01 revision 67812) [x86_64-linux]
+I, [2021-08-21T11:06:05.392587 #21648]  INFO -- : See LICENSE and the LGPL-3.0 for licensing details.
+I, [2021-08-21T11:06:05.392615 #21648]  INFO -- : Upgrade to Sidekiq Pro for more features and support: https://sidekiq.org
+D, [2021-08-21T11:06:05.395320 #21648] DEBUG -- : Client Middleware: 
+D, [2021-08-21T11:06:05.395372 #21648] DEBUG -- : Server Middleware: 
+I, [2021-08-21T11:06:05.395399 #21648]  INFO -- : Starting processing, hit Ctrl-C to stop
+D, [2021-08-21T11:06:05.395521 #21648] DEBUG -- : {:queues=>["alert"], :labels=>[], :concurrency=>7, :require=>".", :environment=>nil, :timeout=>30, :poll_interval_average=>nil, :average_scheduled_poll_interval=>5, :error_handlers=>[#<Sidekiq::ExceptionHandler::Logger:0x0000563eaefdc008>], :death_handlers=>[], :lifecycle_events=>{:startup=>[], :quiet=>[], :shutdown=>[], :heartbeat=>[]}, :dead_max_jobs=>10000, :dead_timeout_in_seconds=>15552000, :reloader=>#<Sidekiq::Rails::Reloader @app=GoormRailsApp::Application>, :pidfile=>"./tmp/pids/sidekiq.pid", :daemon=>true, :production=>{:verbose=>false, :logfile=>"./log/production_sidekiq.log", :concurrency=>7, :timeout=>5, :queues=>["alert"]}, :verbose=>true, :logfile=>"./log/development_sidekiq.log", :config_file=>"./config/sidekiq.yml", :strict=>true, :tag=>"daangn_intern", :identity=>"goorm:21648:01a555b2343e"}
+I, [2021-08-21T11:06:05.423815 #21648]  INFO -- : start
+I, [2021-08-21T11:06:06.483034 #21648]  INFO -- : done
+I, [2021-08-21T11:06:37.634955 #21648]  INFO -- : start
+I, [2021-08-21T11:06:37.809789 #21648]  INFO -- : done
+I, [2021-08-21T11:08:01.980672 #21648]  INFO -- : start
+I, [2021-08-21T11:08:02.165904 #21648]  INFO -- : done
+I, [2021-08-21T11:12:09.529089 #21648]  INFO -- : start
+I, [2021-08-21T11:12:09.532948 #21648]  INFO -- : start
+I, [2021-08-21T11:12:09.781828 #21648]  INFO -- : done
+I, [2021-08-21T11:12:09.798034 #21648]  INFO -- : done
+I, [2021-08-22T07:32:58.628912 #4706]  INFO -- : Booted Rails 6.0.3.2 application in development environment
+I, [2021-08-22T07:32:58.631139 #4706]  INFO -- : Running in ruby 2.6.5p114 (2019-10-01 revision 67812) [x86_64-linux]
+I, [2021-08-22T07:32:58.631181 #4706]  INFO -- : See LICENSE and the LGPL-3.0 for licensing details.
+I, [2021-08-22T07:32:58.631201 #4706]  INFO -- : Upgrade to Sidekiq Pro for more features and support: https://sidekiq.org
+D, [2021-08-22T07:32:58.632686 #4706] DEBUG -- : Client Middleware: 
+D, [2021-08-22T07:32:58.632725 #4706] DEBUG -- : Server Middleware: 
+D, [2021-08-22T07:32:58.632858 #4706] DEBUG -- : {:queues=>["alert"], :labels=>[], :concurrency=>7, :require=>".", :environment=>nil, :timeout=>30, :poll_interval_average=>nil, :average_scheduled_poll_interval=>5, :error_handlers=>[#<Sidekiq::ExceptionHandler::Logger:0x0000563918479418>], :death_handlers=>[], :lifecycle_events=>{:startup=>[], :quiet=>[], :shutdown=>[], :heartbeat=>[]}, :dead_max_jobs=>10000, :dead_timeout_in_seconds=>15552000, :reloader=>#<Sidekiq::Rails::Reloader @app=GoormRailsApp::Application>, :pidfile=>"./tmp/pids/sidekiq.pid", :daemon=>true, :production=>{:verbose=>false, :logfile=>"./log/production_sidekiq.log", :concurrency=>7, :timeout=>5, :queues=>["alert"]}, :verbose=>true, :logfile=>"./log/development_sidekiq.log", :config_file=>"./config/sidekiq.yml", :strict=>true, :tag=>"daangn_intern", :identity=>"goorm:4706:0aa5db4fdc48"}
+I, [2021-08-22T07:33:27.612348 #4706]  INFO -- : start
+I, [2021-08-22T07:33:27.616605 #4706]  INFO -- : start
+I, [2021-08-22T07:33:28.655461 #4706]  INFO -- : done
+I, [2021-08-22T07:33:28.656030 #4706]  INFO -- : done
+I, [2021-08-22T07:35:20.481002 #5113]  INFO -- : Booted Rails 6.0.3.2 application in development environment
+I, [2021-08-22T07:35:20.481292 #5113]  INFO -- : Running in ruby 2.6.5p114 (2019-10-01 revision 67812) [x86_64-linux]
+I, [2021-08-22T07:35:20.481322 #5113]  INFO -- : See LICENSE and the LGPL-3.0 for licensing details.
+I, [2021-08-22T07:35:20.481344 #5113]  INFO -- : Upgrade to Sidekiq Pro for more features and support: https://sidekiq.org
+D, [2021-08-22T07:35:20.482836 #5113] DEBUG -- : Client Middleware: 
+D, [2021-08-22T07:35:20.482876 #5113] DEBUG -- : Server Middleware: 
+I, [2021-08-22T07:35:20.482899 #5113]  INFO -- : Starting processing, hit Ctrl-C to stop
+D, [2021-08-22T07:35:20.482995 #5113] DEBUG -- : {:queues=>["alert"], :labels=>[], :concurrency=>7, :require=>".", :environment=>nil, :timeout=>30, :poll_interval_average=>nil, :average_scheduled_poll_interval=>5, :error_handlers=>[#<Sidekiq::ExceptionHandler::Logger:0x00005560a1dd1358>], :death_handlers=>[], :lifecycle_events=>{:startup=>[], :quiet=>[], :shutdown=>[], :heartbeat=>[]}, :dead_max_jobs=>10000, :dead_timeout_in_seconds=>15552000, :reloader=>#<Sidekiq::Rails::Reloader @app=GoormRailsApp::Application>, :pidfile=>"./tmp/pids/sidekiq.pid", :daemon=>true, :production=>{:verbose=>false, :logfile=>"./log/production_sidekiq.log", :concurrency=>7, :timeout=>5, :queues=>["alert"]}, :verbose=>true, :logfile=>"./log/development_sidekiq.log", :config_file=>"./config/sidekiq.yml", :strict=>true, :tag=>"daangn_intern", :identity=>"goorm:5113:14b45b378a4a"}
+I, [2021-08-22T07:36:14.605216 #4706]  INFO -- : start
+I, [2021-08-22T07:36:14.915032 #4706]  INFO -- : done
+I, [2021-08-22T07:36:44.148392 #4706]  INFO -- : start
+I, [2021-08-22T07:36:44.227544 #4706]  INFO -- : done
+I, [2021-08-22T07:36:56.148402 #5113]  INFO -- : start
+I, [2021-08-22T07:36:56.154457 #4706]  INFO -- : start
+I, [2021-08-22T07:36:56.225189 #4706]  INFO -- : done
+I, [2021-08-22T07:36:56.553145 #5113]  INFO -- : done
+D, [2021-08-22T11:27:12.972627 #5113] DEBUG -- : Got INT signal
+I, [2021-08-22T11:27:12.972744 #5113]  INFO -- : Shutting down
+I, [2021-08-22T11:27:12.972778 #5113]  INFO -- : Terminating quiet workers
+I, [2021-08-22T11:27:12.972874 #5113]  INFO -- : Scheduler exiting...
+I, [2021-08-22T11:27:13.073115 #5113]  INFO -- : Pausing to allow workers to finish...
+I, [2021-08-22T11:27:15.076720 #5113]  INFO -- : Bye!
+I, [2021-08-24T04:19:42.997008 #19067]  INFO -- : Booted Rails 6.0.3.2 application in development environment
+I, [2021-08-24T04:19:42.998373 #19067]  INFO -- : Running in ruby 2.6.5p114 (2019-10-01 revision 67812) [x86_64-linux]
+I, [2021-08-24T04:19:42.998425 #19067]  INFO -- : See LICENSE and the LGPL-3.0 for licensing details.
+I, [2021-08-24T04:19:42.998559 #19067]  INFO -- : Upgrade to Sidekiq Pro for more features and support: https://sidekiq.org
+D, [2021-08-24T04:19:43.012727 #19067] DEBUG -- : Client Middleware: 
+D, [2021-08-24T04:19:43.012798 #19067] DEBUG -- : Server Middleware: 
+I, [2021-08-24T04:19:43.012825 #19067]  INFO -- : Starting processing, hit Ctrl-C to stop
+D, [2021-08-24T04:19:43.012923 #19067] DEBUG -- : {:queues=>["alert"], :labels=>[], :concurrency=>7, :require=>".", :environment=>nil, :timeout=>30, :poll_interval_average=>nil, :average_scheduled_poll_interval=>5, :error_handlers=>[#<Sidekiq::ExceptionHandler::Logger:0x000055f65f801168>], :death_handlers=>[], :lifecycle_events=>{:startup=>[], :quiet=>[], :shutdown=>[], :heartbeat=>[]}, :dead_max_jobs=>10000, :dead_timeout_in_seconds=>15552000, :reloader=>#<Sidekiq::Rails::Reloader @app=GoormRailsApp::Application>, :pidfile=>"./tmp/pids/sidekiq.pid", :daemon=>true, :production=>{:verbose=>false, :logfile=>"./log/production_sidekiq.log", :concurrency=>7, :timeout=>5, :queues=>["alert"]}, :verbose=>true, :logfile=>"./log/development_sidekiq.log", :config_file=>"./config/sidekiq.yml", :strict=>true, :tag=>"daangn_intern", :identity=>"goorm:19067:0b2eb8c7ad13"}
+I, [2021-08-24T04:21:01.672015 #4706]  INFO -- : start
+I, [2021-08-24T04:21:02.040952 #4706]  INFO -- : done
+I, [2021-08-24T05:12:41.693961 #4706]  INFO -- : start
+I, [2021-08-24T05:12:41.703550 #4706]  INFO -- : start
+I, [2021-08-24T05:12:41.988270 #4706]  INFO -- : done
+I, [2021-08-24T05:12:42.196551 #4706]  INFO -- : done
+I, [2021-08-24T05:15:16.361702 #4706]  INFO -- : start
+I, [2021-08-24T05:15:16.621827 #4706]  INFO -- : done
+I, [2021-08-24T05:21:24.832439 #4706]  INFO -- : start
+I, [2021-08-24T05:21:25.094039 #4706]  INFO -- : done
+I, [2021-08-24T05:29:34.019076 #19067]  INFO -- : start
+I, [2021-08-24T05:29:34.753758 #19067]  INFO -- : done
+I, [2021-08-24T05:34:58.080635 #4706]  INFO -- : start
+I, [2021-08-24T05:34:58.432634 #4706]  INFO -- : done
+I, [2021-08-24T05:35:21.767957 #19067]  INFO -- : start
+I, [2021-08-24T05:35:22.027965 #19067]  INFO -- : done
+I, [2021-08-24T05:37:31.048604 #4706]  INFO -- : start
+I, [2021-08-24T05:37:31.067440 #4706]  INFO -- : start
+I, [2021-08-24T05:37:31.377890 #4706]  INFO -- : done
+I, [2021-08-24T05:37:31.517117 #4706]  INFO -- : done
+I, [2021-08-24T05:38:08.778813 #19067]  INFO -- : start
+I, [2021-08-24T05:38:09.140502 #19067]  INFO -- : done
+I, [2021-08-24T05:39:25.834577 #4706]  INFO -- : start
+I, [2021-08-24T05:39:26.100331 #4706]  INFO -- : done
+I, [2021-08-24T15:36:38.296142 #19067]  INFO -- : start
+I, [2021-08-24T15:36:38.724674 #19067]  INFO -- : done
+I, [2021-08-24T15:39:50.259453 #4706]  INFO -- : start
+I, [2021-08-24T15:39:50.742515 #4706]  INFO -- : done
+I, [2021-08-24T15:41:15.656025 #4706]  INFO -- : start
+I, [2021-08-24T15:41:15.826103 #4706]  INFO -- : done
+I, [2021-08-24T15:42:16.357281 #19067]  INFO -- : start
+I, [2021-08-24T15:42:16.363911 #4706]  INFO -- : start
+I, [2021-08-24T15:42:16.666877 #19067]  INFO -- : done
+I, [2021-08-24T15:42:16.676091 #4706]  INFO -- : done
+I, [2021-08-24T15:42:47.877400 #19067]  INFO -- : start
+I, [2021-08-24T15:42:47.883478 #19067]  INFO -- : start
+I, [2021-08-24T15:42:48.045440 #19067]  INFO -- : done
+I, [2021-08-24T15:42:48.092983 #19067]  INFO -- : done

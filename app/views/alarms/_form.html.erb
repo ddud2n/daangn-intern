@@ -1,0 +1,37 @@
+<%= form_with(model: alarm, remote: true, format: :json, id: 'add_alarm') do |form| %>
+  <% if alarm.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(alarm.errors.count, "error") %> prohibited this alarm from being saved:</h2>
+
+      <ul>
+        <% alarm.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :username %>
+    <%= form.text_field :username %>
+  </div>
+
+  <div class="field">
+    <%= form.label :word %>
+    <%= form.text_field :word %>
+  </div>
+
+  <div class="field">
+    <%= form.label :title %>
+    <%= form.text_area :title %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description %>
+    <%= form.text_area :description %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

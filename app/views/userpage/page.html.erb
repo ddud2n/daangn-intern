@@ -1,0 +1,162 @@
+<!--gem pusher 를 통해 게시글 생성 비동기 연결-->
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<script>
+$(document).on('ready', function(){
+	
+	function update_table1(data){
+    $("#alarm_list").append(`
+	<tr>
+		<td>${data.username}</td>
+        <td>${data.word}</td>
+		<td>${data.title}</td>
+		<td>${data.description}</td>
+	</tr>
+	`);
+    }
+	
+	function update_table2(data){
+    $("#keyword_list").append(`
+	<tr>
+		<td>${data.username}</td>
+		<td>${data.word}</td>
+	</tr>
+	`);
+    }
+	
+	function update_table3(data){
+    $("#post_list").append(`
+	<tr>
+		<td>${data.username}</td>
+		<td>${data.title}</td>
+		<td>${data.description}</td>
+	</tr>
+	`);
+    }
+
+	var pusher = new Pusher('81a86edb77e069fe1c55', {
+	  cluster: 'ap3',
+	  encrypted: true
+	});
+	
+	var channel1 = pusher.subscribe('alarm');
+	channel1.bind('new', function(data) {
+	   if(data.username == "<%= @username%>"){
+	  	update_table1(data);
+	  	alert("새로운 알람 추가");
+	  }
+	});
+	
+	var channel2 = pusher.subscribe('keyword');
+	channel2.bind('new', function(data) {
+	   if(data.username == "<%= @username%>"){
+	  	update_table2(data);
+	  	alert("새로운 키워드 추가");
+	  }
+	});
+	
+	var channel3 = pusher.subscribe('post');
+	channel3.bind('new', function(data) {
+	  if(data.username == "<%= @username%>"){
+	  	update_table3(data);
+	  	alert("새로운 게시글 추가");
+	  }
+	});
+	
+});
+</script>
+
+
+
+
+
+
+<div class='container-fluid'>
+  <p id="notice"><%= notice %></p>
+  <div class='row py-3 px-3'>
+	<div class='col-12 col-sm-8'>
+	  <h3 class=''>Posts</h3>
+	  <table id='post-table' class="table table-hover">
+		<thead  class="thead-light">
+		  <tr>
+			<th>Username</th>
+			<th>Title</th>
+			<th>Description</th>
+			<th colspan="3"></th>
+		  </tr>
+		</thead>
+
+		<tbody id = "post_list">
+		<% @posts.each do |post| %>
+		  <tr>
+			<td><%= post.username %></td>
+			<td><%= post.title %></td>
+			<td><%= post.description %></td>
+		  </tr>
+		<% end %>
+	  </tbody>
+	  </table>
+	  <br>
+	</div>
+  </div>
+</div>
+
+<div class='container-fluid'>
+  <p id="notice"><%= notice %></p>
+  <div class='row py-3 px-3'>
+	<div class='col-12 col-sm-8'>
+	  <h3 class=''>Keywords</h3>
+	  <table id='keyword-table' class="table table-hover">
+		<thead  class="thead-light">
+		  <tr>
+			<th>Username</th>
+      		<th>Word</th>
+      		<th colspan="3"></th>
+		  </tr>
+		</thead>
+
+		<tbody id = "keyword_list">
+		<% @keywords.each do |keyword| %>
+      <tr>
+        <td><%= keyword.username %></td>
+        <td><%= keyword.word %></td>
+      </tr>
+    <% end %>
+	  </tbody>
+	  </table>
+	  <br>
+	</div>
+  </div>
+</div>
+
+<div class='container-fluid'>
+  <p id="notice"><%= notice %></p>
+  <div class='row py-3 px-3'>
+	<div class='col-12 col-sm-8'>
+	  <h3 class=''>Alarms</h3>
+	  <table id='alarm-table' class="table table-hover">
+		<thead  class="thead-light">
+		  <tr>
+			<th>Username</th>
+			<th>Word</th>
+			<th>Title</th>
+			<th>Description</th>
+			<th colspan="3"></th>
+		  </tr>
+		</thead>
+
+		<tbody id = "alarm_list">
+		<% @alarms.each do |alarm| %>
+		  <tr>
+			<td><%= alarm.username %></td>
+			<td><%= alarm.word %></td>
+			<td><%= alarm.title %></td>
+			<td><%= alarm.description %></td>
+		  </tr>
+		<% end %>
+	  </tbody>
+	  </table>
+	  <br>
+	</div>
+  </div>
+</div>
