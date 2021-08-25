@@ -640,3 +640,19 @@ I, [2021-08-25T05:08:45.843721 #66552]  INFO -- : Terminating quiet workers
 I, [2021-08-25T05:08:45.843821 #66552]  INFO -- : Scheduler exiting...
 I, [2021-08-25T05:08:45.944064 #66552]  INFO -- : Pausing to allow workers to finish...
 I, [2021-08-25T05:08:47.046282 #66552]  INFO -- : Bye!
+I, [2021-08-25T05:20:37.294316 #75675]  INFO -- : Booted Rails 6.0.3.2 application in development environment
+I, [2021-08-25T05:20:37.294525 #75675]  INFO -- : Running in ruby 2.6.5p114 (2019-10-01 revision 67812) [x86_64-linux]
+I, [2021-08-25T05:20:37.294609 #75675]  INFO -- : See LICENSE and the LGPL-3.0 for licensing details.
+I, [2021-08-25T05:20:37.294684 #75675]  INFO -- : Upgrade to Sidekiq Pro for more features and support: https://sidekiq.org
+D, [2021-08-25T05:20:37.297485 #75675] DEBUG -- : Client Middleware: 
+D, [2021-08-25T05:20:37.297528 #75675] DEBUG -- : Server Middleware: 
+I, [2021-08-25T05:20:37.297552 #75675]  INFO -- : Starting processing, hit Ctrl-C to stop
+D, [2021-08-25T05:20:37.297710 #75675] DEBUG -- : {:queues=>["alert"], :labels=>[], :concurrency=>7, :require=>".", :environment=>nil, :timeout=>30, :poll_interval_average=>nil, :average_scheduled_poll_interval=>5, :error_handlers=>[#<Sidekiq::ExceptionHandler::Logger:0x000055a507d64d20>], :death_handlers=>[], :lifecycle_events=>{:startup=>[], :quiet=>[], :shutdown=>[], :heartbeat=>[]}, :dead_max_jobs=>10000, :dead_timeout_in_seconds=>15552000, :reloader=>#<Sidekiq::Rails::Reloader @app=GoormRailsApp::Application>, :pidfile=>"./tmp/pids/sidekiq.pid", :daemon=>true, :production=>{:verbose=>false, :logfile=>"./log/production_sidekiq.log", :concurrency=>7, :timeout=>5, :queues=>["alert"]}, :verbose=>true, :logfile=>"./log/development_sidekiq.log", :config_file=>"./config/sidekiq.yml", :strict=>true, :tag=>"daangn_intern", :identity=>"goorm:75675:ff94efc79273"}
+I, [2021-08-25T05:20:45.244322 #75675]  INFO -- : start
+I, [2021-08-25T05:20:45.728193 #75675]  INFO -- : done
+D, [2021-08-25T05:21:43.968681 #75675] DEBUG -- : Got INT signal
+I, [2021-08-25T05:21:43.968827 #75675]  INFO -- : Shutting down
+I, [2021-08-25T05:21:43.968874 #75675]  INFO -- : Terminating quiet workers
+I, [2021-08-25T05:21:43.968959 #75675]  INFO -- : Scheduler exiting...
+I, [2021-08-25T05:21:44.069183 #75675]  INFO -- : Pausing to allow workers to finish...
+I, [2021-08-25T05:21:44.570362 #75675]  INFO -- : Bye!

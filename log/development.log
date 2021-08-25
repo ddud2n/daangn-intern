@@ -17623,3 +17623,126 @@ Completed 201 Created in 202ms (Views: 2.6ms | ActiveRecord: 33.4ms | Allocation
 [ActiveJob] [AlertJob] [5571e5e0-c3d5-4101-8cec-d75ad8ff2606]   [1m[35m (32.4ms)[0m  [1m[36mcommit transaction[0m
 [ActiveJob] [AlertJob] [5571e5e0-c3d5-4101-8cec-d75ad8ff2606]   ↳ app/jobs/alert_job.rb:30:in `block in perform'
 [ActiveJob] [AlertJob] [5571e5e0-c3d5-4101-8cec-d75ad8ff2606] Performed AlertJob (Job ID: 5571e5e0-c3d5-4101-8cec-d75ad8ff2606) from Sidekiq(alert) in 277.35ms
+Started POST "/posts.json" for 172.17.0.1 at 2021-08-25 05:20:44 +0000
+Cannot render console from 10.1.20.90! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PostsController#create as JSON
+  Parameters: {"authenticity_token"=>"n6DWM0iAOzBRaymed3x2nDGdoqXA2oBT+yCKttMIJ2OpVqo03bgLTKORhKQqditstMAf2fYtZL4i3TNKkRJGEg==", "post"=>{"username"=>"sujin", "title"=>"맥북아이패드마우스애플펜슬", "description"=>"test"}, "commit"=>"Create Post"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:34:in `block in create'
+  [1m[36mPost Create (1.7ms)[0m  [1m[32mINSERT INTO "posts" ("username", "title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["username", "sujin"], ["title", "맥북아이패드마우스애플펜슬"], ["description", "test"], ["created_at", "2021-08-25 05:20:44.932676"], ["updated_at", "2021-08-25 05:20:44.932676"]]
+  ↳ app/controllers/posts_controller.rb:34:in `block in create'
+  [1m[35m (60.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:34:in `block in create'
+[ActiveJob] Enqueued AlertJob (Job ID: db5008c7-92c7-456e-ab03-58de108517b5) to Sidekiq(alert) with arguments: "{\"post_username\": \"sujin\", \"post_title\": \"맥북아이패드마우스애플펜슬\" }"
+  Rendering posts/show.json.jbuilder
+  Rendered posts/_post.json.jbuilder (Duration: 0.6ms | Allocations: 144)
+  Rendered posts/show.json.jbuilder (Duration: 3.3ms | Allocations: 675)
+Completed 201 Created in 336ms (Views: 10.5ms | ActiveRecord: 63.4ms | Allocations: 43637)
+
+
+[ActiveJob] [AlertJob] [db5008c7-92c7-456e-ab03-58de108517b5] Performing AlertJob (Job ID: db5008c7-92c7-456e-ab03-58de108517b5) from Sidekiq(alert) enqueued at 2021-08-25T05:20:45Z with arguments: "{\"post_username\": \"sujin\", \"post_title\": \"맥북아이패드마우스애플펜슬\" }"
+[ActiveJob] [AlertJob] [db5008c7-92c7-456e-ab03-58de108517b5]   [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[ActiveJob] [AlertJob] [db5008c7-92c7-456e-ab03-58de108517b5]   ↳ app/jobs/alert_job.rb:19:in `perform'
+[ActiveJob] [AlertJob] [db5008c7-92c7-456e-ab03-58de108517b5]   [1m[36mKeyword Load (0.2ms)[0m  [1m[34mSELECT "keywords".* FROM "keywords" WHERE (INSTR("맥북아이패드마우스애플펜슬", word) != 0  and "keywords"."username" != "sujin")[0m
+[ActiveJob] [AlertJob] [db5008c7-92c7-456e-ab03-58de108517b5]   ↳ app/jobs/alert_job.rb:19:in `perform'
+[ActiveJob] [AlertJob] [db5008c7-92c7-456e-ab03-58de108517b5]   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+[ActiveJob] [AlertJob] [db5008c7-92c7-456e-ab03-58de108517b5]   ↳ app/jobs/alert_job.rb:30:in `block in perform'
+[ActiveJob] [AlertJob] [db5008c7-92c7-456e-ab03-58de108517b5]   [1m[36mAlarm Create (0.5ms)[0m  [1m[32mINSERT INTO "alarms" ("username", "word", "title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["username", "이수진"], ["word", "마우스,맥북"], ["title", "[마우스,맥북 키워드알람]"], ["description", "sujin님의 글제목:맥북아이패드마우스애플펜슬"], ["created_at", "2021-08-25 05:20:45.422282"], ["updated_at", "2021-08-25 05:20:45.422282"]]
+[ActiveJob] [AlertJob] [db5008c7-92c7-456e-ab03-58de108517b5]   ↳ app/jobs/alert_job.rb:30:in `block in perform'
+[ActiveJob] [AlertJob] [db5008c7-92c7-456e-ab03-58de108517b5]   [1m[35m (24.4ms)[0m  [1m[36mcommit transaction[0m
+[ActiveJob] [AlertJob] [db5008c7-92c7-456e-ab03-58de108517b5]   ↳ app/jobs/alert_job.rb:30:in `block in perform'
+[ActiveJob] [AlertJob] [db5008c7-92c7-456e-ab03-58de108517b5]   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+[ActiveJob] [AlertJob] [db5008c7-92c7-456e-ab03-58de108517b5]   ↳ app/jobs/alert_job.rb:30:in `block in perform'
+[ActiveJob] [AlertJob] [db5008c7-92c7-456e-ab03-58de108517b5]   [1m[36mAlarm Create (1.6ms)[0m  [1m[32mINSERT INTO "alarms" ("username", "word", "title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["username", "lee"], ["word", "애플펜슬"], ["title", "[애플펜슬 키워드알람]"], ["description", "sujin님의 글제목:맥북아이패드마우스애플펜슬"], ["created_at", "2021-08-25 05:20:45.645239"], ["updated_at", "2021-08-25 05:20:45.645239"]]
+[ActiveJob] [AlertJob] [db5008c7-92c7-456e-ab03-58de108517b5]   ↳ app/jobs/alert_job.rb:30:in `block in perform'
+[ActiveJob] [AlertJob] [db5008c7-92c7-456e-ab03-58de108517b5]   [1m[35m (35.9ms)[0m  [1m[36mcommit transaction[0m
+[ActiveJob] [AlertJob] [db5008c7-92c7-456e-ab03-58de108517b5]   ↳ app/jobs/alert_job.rb:30:in `block in perform'
+[ActiveJob] [AlertJob] [db5008c7-92c7-456e-ab03-58de108517b5] Performed AlertJob (Job ID: db5008c7-92c7-456e-ab03-58de108517b5) from Sidekiq(alert) in 360.74ms
+Started DELETE "/alarms/67" for 172.17.0.1 at 2021-08-25 05:21:03 +0000
+Cannot render console from 10.1.20.90! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by AlarmsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"gj7pKD+VuRtAqEt7evXnTxT3hl2xCdNaDuNZ+2GZSq20yJUvqq2JZ7JS5kEn/7q/kao7IYf+N7fXHuAHI4Mr3A==", "id"=>"67"}
+HTTP Origin header (https://daangn-intern-mphyq.run.goorm.io) didn't match request.base_url (http://daangn-intern-mphyq.run.goorm.io)
+  [1m[36mAlarm Load (0.2ms)[0m  [1m[34mSELECT "alarms".* FROM "alarms" WHERE "alarms"."id" = ? LIMIT ?[0m  [["id", 67], ["LIMIT", 1]]
+  ↳ app/controllers/alarms_controller.rb:69:in `set_alarm'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/alarms_controller.rb:59:in `destroy'
+  [1m[36mAlarm Destroy (1.7ms)[0m  [1m[31mDELETE FROM "alarms" WHERE "alarms"."id" = ?[0m  [["id", 67]]
+  ↳ app/controllers/alarms_controller.rb:59:in `destroy'
+  [1m[35m (19.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/alarms_controller.rb:59:in `destroy'
+Redirected to http://daangn-intern-mphyq.run.goorm.io/alarms
+Completed 302 Found in 80ms (ActiveRecord: 21.9ms | Allocations: 9735)
+
+
+Started GET "/alarms" for 172.17.0.1 at 2021-08-25 05:21:03 +0000
+Cannot render console from 10.1.21.16! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by AlarmsController#index as HTML
+  Rendering alarms/index.html.erb within layouts/application
+  [1m[36mAlarm Load (0.3ms)[0m  [1m[34mSELECT "alarms".* FROM "alarms"[0m
+  ↳ app/views/alarms/index.html.erb:55
+  Rendered alarms/_form.html.erb (Duration: 32.6ms | Allocations: 9141)
+  Rendered alarms/index.html.erb within layouts/application (Duration: 44.3ms | Allocations: 13078)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 132ms (Views: 128.9ms | ActiveRecord: 0.3ms | Allocations: 48656)
+
+
+Started DELETE "/alarms/66" for 172.17.0.1 at 2021-08-25 05:21:07 +0000
+Cannot render console from 10.1.21.16! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by AlarmsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"yKKN/fZOh4h7gCl0mOtj7se9FifJgrKDDZLdPtX36pf+VPH6Y3a39Il6hE7F4T4eQuCrW/91Vm7Ub2TCl+2L5g==", "id"=>"66"}
+  [1m[36mAlarm Load (0.1ms)[0m  [1m[34mSELECT "alarms".* FROM "alarms" WHERE "alarms"."id" = ? LIMIT ?[0m  [["id", 66], ["LIMIT", 1]]
+  ↳ app/controllers/alarms_controller.rb:69:in `set_alarm'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/alarms_controller.rb:59:in `destroy'
+  [1m[36mAlarm Destroy (1.2ms)[0m  [1m[31mDELETE FROM "alarms" WHERE "alarms"."id" = ?[0m  [["id", 66]]
+  ↳ app/controllers/alarms_controller.rb:59:in `destroy'
+  [1m[35m (23.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/alarms_controller.rb:59:in `destroy'
+Redirected to http://daangn-intern-mphyq.run.goorm.io/alarms
+Completed 302 Found in 104ms (ActiveRecord: 25.0ms | Allocations: 4231)
+
+
+Started GET "/alarms" for 172.17.0.1 at 2021-08-25 05:21:07 +0000
+Cannot render console from 10.1.21.16! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by AlarmsController#index as HTML
+  Rendering alarms/index.html.erb within layouts/application
+  [1m[36mAlarm Load (0.2ms)[0m  [1m[34mSELECT "alarms".* FROM "alarms"[0m
+  ↳ app/views/alarms/index.html.erb:55
+  Rendered alarms/_form.html.erb (Duration: 1.8ms | Allocations: 1101)
+  Rendered alarms/index.html.erb within layouts/application (Duration: 8.3ms | Allocations: 4464)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 22.6ms | ActiveRecord: 0.2ms | Allocations: 12520)
+
+
+Started DELETE "/posts/173" for 172.17.0.1 at 2021-08-25 05:21:13 +0000
+Cannot render console from 10.1.20.90! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"n6DWM0iAOzBRaymed3x2nDGdoqXA2oBT+yCKttMIJ2OpVqo03bgLTKORhKQqditstMAf2fYtZL4i3TNKkRJGEg==", "id"=>"173"}
+HTTP Origin header (https://daangn-intern-mphyq.run.goorm.io) didn't match request.base_url (http://daangn-intern-mphyq.run.goorm.io)
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 173], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:75:in `set_post'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:65:in `destroy'
+  [1m[36mPost Destroy (2.2ms)[0m  [1m[31mDELETE FROM "posts" WHERE "posts"."id" = ?[0m  [["id", 173]]
+  ↳ app/controllers/posts_controller.rb:65:in `destroy'
+  [1m[35m (20.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:65:in `destroy'
+Redirected to http://daangn-intern-mphyq.run.goorm.io/posts
+Completed 302 Found in 30ms (ActiveRecord: 22.4ms | Allocations: 4358)
+
+
+Started GET "/posts" for 172.17.0.1 at 2021-08-25 05:21:13 +0000
+Cannot render console from 10.1.21.16! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:53
+  Rendered posts/_form.html.erb (Duration: 2.4ms | Allocations: 1354)
+  Rendered posts/index.html.erb within layouts/application (Duration: 9.3ms | Allocations: 5863)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 24.7ms | ActiveRecord: 0.2ms | Allocations: 14653)
+
+
