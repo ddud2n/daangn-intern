@@ -112,3 +112,531 @@ I, [2021-08-24T15:42:47.877400 #19067]  INFO -- : start
 I, [2021-08-24T15:42:47.883478 #19067]  INFO -- : start
 I, [2021-08-24T15:42:48.045440 #19067]  INFO -- : done
 I, [2021-08-24T15:42:48.092983 #19067]  INFO -- : done
+D, [2021-08-24T16:22:27.598627 #19067] DEBUG -- : Got INT signal
+I, [2021-08-24T16:22:27.598742 #19067]  INFO -- : Shutting down
+I, [2021-08-24T16:22:27.598777 #19067]  INFO -- : Terminating quiet workers
+I, [2021-08-24T16:22:27.598874 #19067]  INFO -- : Scheduler exiting...
+I, [2021-08-24T16:22:27.699150 #19067]  INFO -- : Pausing to allow workers to finish...
+I, [2021-08-24T16:22:29.502920 #19067]  INFO -- : Bye!
+I, [2021-08-24T16:30:46.075252 #60132]  INFO -- : Booted Rails 6.0.3.2 application in development environment
+I, [2021-08-24T16:30:46.075526 #60132]  INFO -- : Running in ruby 2.6.5p114 (2019-10-01 revision 67812) [x86_64-linux]
+I, [2021-08-24T16:30:46.075561 #60132]  INFO -- : See LICENSE and the LGPL-3.0 for licensing details.
+I, [2021-08-24T16:30:46.075581 #60132]  INFO -- : Upgrade to Sidekiq Pro for more features and support: https://sidekiq.org
+D, [2021-08-24T16:30:46.079353 #60132] DEBUG -- : Client Middleware: 
+D, [2021-08-24T16:30:46.079411 #60132] DEBUG -- : Server Middleware: 
+I, [2021-08-24T16:30:46.079438 #60132]  INFO -- : Starting processing, hit Ctrl-C to stop
+D, [2021-08-24T16:30:46.079536 #60132] DEBUG -- : {:queues=>["alert"], :labels=>[], :concurrency=>7, :require=>".", :environment=>nil, :timeout=>30, :poll_interval_average=>nil, :average_scheduled_poll_interval=>5, :error_handlers=>[#<Sidekiq::ExceptionHandler::Logger:0x0000562600bafaa0>], :death_handlers=>[], :lifecycle_events=>{:startup=>[], :quiet=>[], :shutdown=>[], :heartbeat=>[]}, :dead_max_jobs=>10000, :dead_timeout_in_seconds=>15552000, :reloader=>#<Sidekiq::Rails::Reloader @app=GoormRailsApp::Application>, :pidfile=>"./tmp/pids/sidekiq.pid", :daemon=>true, :production=>{:verbose=>false, :logfile=>"./log/production_sidekiq.log", :concurrency=>7, :timeout=>5, :queues=>["alert"]}, :verbose=>true, :logfile=>"./log/development_sidekiq.log", :config_file=>"./config/sidekiq.yml", :strict=>true, :tag=>"daangn_intern", :identity=>"goorm:60132:3d67f2e722b5"}
+I, [2021-08-24T16:36:07.204279 #61229]  INFO -- : Booted Rails 6.0.3.2 application in development environment
+I, [2021-08-24T16:36:07.204407 #61229]  INFO -- : Running in ruby 2.6.5p114 (2019-10-01 revision 67812) [x86_64-linux]
+I, [2021-08-24T16:36:07.204445 #61229]  INFO -- : See LICENSE and the LGPL-3.0 for licensing details.
+I, [2021-08-24T16:36:07.204477 #61229]  INFO -- : Upgrade to Sidekiq Pro for more features and support: https://sidekiq.org
+D, [2021-08-24T16:36:07.206177 #61229] DEBUG -- : Client Middleware: 
+D, [2021-08-24T16:36:07.206220 #61229] DEBUG -- : Server Middleware: 
+I, [2021-08-24T16:36:07.206246 #61229]  INFO -- : Starting processing, hit Ctrl-C to stop
+D, [2021-08-24T16:36:07.206335 #61229] DEBUG -- : {:queues=>["alert"], :labels=>[], :concurrency=>7, :require=>".", :environment=>nil, :timeout=>30, :poll_interval_average=>nil, :average_scheduled_poll_interval=>5, :error_handlers=>[#<Sidekiq::ExceptionHandler::Logger:0x0000559a0c1936a0>], :death_handlers=>[], :lifecycle_events=>{:startup=>[], :quiet=>[], :shutdown=>[], :heartbeat=>[]}, :dead_max_jobs=>10000, :dead_timeout_in_seconds=>15552000, :reloader=>#<Sidekiq::Rails::Reloader @app=GoormRailsApp::Application>, :pidfile=>"./tmp/pids/sidekiq.pid", :daemon=>true, :production=>{:verbose=>false, :logfile=>"./log/production_sidekiq.log", :concurrency=>7, :timeout=>5, :queues=>["alert"]}, :verbose=>true, :logfile=>"./log/development_sidekiq.log", :config_file=>"./config/sidekiq.yml", :strict=>true, :tag=>"daangn_intern", :identity=>"goorm:61229:11cf28da577f"}
+I, [2021-08-24T16:37:44.509382 #61693]  INFO -- : Booted Rails 6.0.3.2 application in development environment
+I, [2021-08-24T16:37:44.509528 #61693]  INFO -- : Running in ruby 2.6.5p114 (2019-10-01 revision 67812) [x86_64-linux]
+I, [2021-08-24T16:37:44.509563 #61693]  INFO -- : See LICENSE and the LGPL-3.0 for licensing details.
+I, [2021-08-24T16:37:44.509589 #61693]  INFO -- : Upgrade to Sidekiq Pro for more features and support: https://sidekiq.org
+D, [2021-08-24T16:37:44.511704 #61693] DEBUG -- : Client Middleware: 
+D, [2021-08-24T16:37:44.511754 #61693] DEBUG -- : Server Middleware: 
+I, [2021-08-24T16:37:44.511783 #61693]  INFO -- : Starting processing, hit Ctrl-C to stop
+D, [2021-08-24T16:37:44.511902 #61693] DEBUG -- : {:queues=>["alert"], :labels=>[], :concurrency=>7, :require=>".", :environment=>nil, :timeout=>30, :poll_interval_average=>nil, :average_scheduled_poll_interval=>5, :error_handlers=>[#<Sidekiq::ExceptionHandler::Logger:0x000055fb90c792f0>], :death_handlers=>[], :lifecycle_events=>{:startup=>[], :quiet=>[], :shutdown=>[], :heartbeat=>[]}, :dead_max_jobs=>10000, :dead_timeout_in_seconds=>15552000, :reloader=>#<Sidekiq::Rails::Reloader @app=GoormRailsApp::Application>, :pidfile=>"./tmp/pids/sidekiq.pid", :daemon=>true, :production=>{:verbose=>false, :logfile=>"./log/production_sidekiq.log", :concurrency=>7, :timeout=>5, :queues=>["alert"]}, :verbose=>true, :logfile=>"./log/development_sidekiq.log", :config_file=>"./config/sidekiq.yml", :strict=>true, :tag=>"daangn_intern", :identity=>"goorm:61693:8836f9d2e4a1"}
+I, [2021-08-24T16:46:58.123037 #4706]  INFO -- : start
+I, [2021-08-24T16:46:58.440381 #4706]  INFO -- : done
+I, [2021-08-24T17:02:18.694156 #4706]  INFO -- : start
+I, [2021-08-24T17:02:18.695518 #61693]  INFO -- : start
+I, [2021-08-24T17:02:18.892306 #4706]  INFO -- : done
+I, [2021-08-24T17:02:19.169244 #61693]  INFO -- : done
+I, [2021-08-24T17:11:46.873245 #64063]  INFO -- : Booted Rails 6.0.3.2 application in development environment
+I, [2021-08-24T17:11:46.873420 #64063]  INFO -- : Running in ruby 2.6.5p114 (2019-10-01 revision 67812) [x86_64-linux]
+I, [2021-08-24T17:11:46.873469 #64063]  INFO -- : See LICENSE and the LGPL-3.0 for licensing details.
+I, [2021-08-24T17:11:46.877408 #64063]  INFO -- : Upgrade to Sidekiq Pro for more features and support: https://sidekiq.org
+D, [2021-08-24T17:11:46.880293 #64063] DEBUG -- : Client Middleware: 
+D, [2021-08-24T17:11:46.880368 #64063] DEBUG -- : Server Middleware: 
+I, [2021-08-24T17:11:46.880407 #64063]  INFO -- : Starting processing, hit Ctrl-C to stop
+D, [2021-08-24T17:11:46.880543 #64063] DEBUG -- : {:queues=>["alert"], :labels=>[], :concurrency=>7, :require=>".", :environment=>nil, :timeout=>30, :poll_interval_average=>nil, :average_scheduled_poll_interval=>5, :error_handlers=>[#<Sidekiq::ExceptionHandler::Logger:0x000055ca0f300e38>], :death_handlers=>[], :lifecycle_events=>{:startup=>[], :quiet=>[], :shutdown=>[], :heartbeat=>[]}, :dead_max_jobs=>10000, :dead_timeout_in_seconds=>15552000, :reloader=>#<Sidekiq::Rails::Reloader @app=GoormRailsApp::Application>, :pidfile=>"./tmp/pids/sidekiq.pid", :daemon=>true, :production=>{:verbose=>false, :logfile=>"./log/production_sidekiq.log", :concurrency=>7, :timeout=>5, :queues=>["alert"]}, :verbose=>true, :logfile=>"./log/development_sidekiq.log", :config_file=>"./config/sidekiq.yml", :strict=>true, :tag=>"daangn_intern", :identity=>"goorm:64063:fed14fa875a8"}
+D, [2021-08-24T17:11:49.963331 #64063] DEBUG -- : Got INT signal
+I, [2021-08-24T17:11:49.963437 #64063]  INFO -- : Shutting down
+I, [2021-08-24T17:11:49.963470 #64063]  INFO -- : Terminating quiet workers
+I, [2021-08-24T17:11:49.963559 #64063]  INFO -- : Scheduler exiting...
+I, [2021-08-24T17:11:50.063788 #64063]  INFO -- : Pausing to allow workers to finish...
+I, [2021-08-24T17:11:51.165700 #64063]  INFO -- : Bye!
+D, [2021-08-24T17:12:22.593797 #61693] DEBUG -- : Got INT signal
+I, [2021-08-24T17:12:22.593941 #61693]  INFO -- : Shutting down
+I, [2021-08-24T17:12:22.593979 #61693]  INFO -- : Terminating quiet workers
+I, [2021-08-24T17:12:22.594075 #61693]  INFO -- : Scheduler exiting...
+I, [2021-08-24T17:12:22.694322 #61693]  INFO -- : Pausing to allow workers to finish...
+I, [2021-08-24T17:12:24.697759 #61693]  INFO -- : Bye!
+I, [2021-08-24T17:12:50.459870 #64426]  INFO -- : Booted Rails 6.0.3.2 application in development environment
+I, [2021-08-24T17:12:50.460009 #64426]  INFO -- : Running in ruby 2.6.5p114 (2019-10-01 revision 67812) [x86_64-linux]
+I, [2021-08-24T17:12:50.460065 #64426]  INFO -- : See LICENSE and the LGPL-3.0 for licensing details.
+I, [2021-08-24T17:12:50.460102 #64426]  INFO -- : Upgrade to Sidekiq Pro for more features and support: https://sidekiq.org
+D, [2021-08-24T17:12:50.474627 #64426] DEBUG -- : Client Middleware: 
+D, [2021-08-24T17:12:50.474715 #64426] DEBUG -- : Server Middleware: 
+I, [2021-08-24T17:12:50.474754 #64426]  INFO -- : Starting processing, hit Ctrl-C to stop
+D, [2021-08-24T17:12:50.474885 #64426] DEBUG -- : {:queues=>["alert"], :labels=>[], :concurrency=>7, :require=>".", :environment=>nil, :timeout=>30, :poll_interval_average=>nil, :average_scheduled_poll_interval=>5, :error_handlers=>[#<Sidekiq::ExceptionHandler::Logger:0x000055e964df5270>], :death_handlers=>[], :lifecycle_events=>{:startup=>[], :quiet=>[], :shutdown=>[], :heartbeat=>[]}, :dead_max_jobs=>10000, :dead_timeout_in_seconds=>15552000, :reloader=>#<Sidekiq::Rails::Reloader @app=GoormRailsApp::Application>, :pidfile=>"./tmp/pids/sidekiq.pid", :daemon=>true, :production=>{:verbose=>false, :logfile=>"./log/production_sidekiq.log", :concurrency=>7, :timeout=>5, :queues=>["alert"]}, :verbose=>true, :logfile=>"./log/development_sidekiq.log", :config_file=>"./config/sidekiq.yml", :strict=>true, :tag=>"daangn_intern", :identity=>"goorm:64426:ae3208ad95e4"}
+D, [2021-08-24T17:15:22.279340 #64426] DEBUG -- : Got INT signal
+I, [2021-08-24T17:15:22.279456 #64426]  INFO -- : Shutting down
+I, [2021-08-24T17:15:22.279488 #64426]  INFO -- : Terminating quiet workers
+I, [2021-08-24T17:15:22.279573 #64426]  INFO -- : Scheduler exiting...
+I, [2021-08-24T17:15:22.379844 #64426]  INFO -- : Pausing to allow workers to finish...
+I, [2021-08-24T17:15:23.582241 #64426]  INFO -- : Bye!
+I, [2021-08-25T02:42:37.684470 #66552]  INFO -- : Booted Rails 6.0.3.2 application in development environment
+I, [2021-08-25T02:42:37.684653 #66552]  INFO -- : Running in ruby 2.6.5p114 (2019-10-01 revision 67812) [x86_64-linux]
+I, [2021-08-25T02:42:37.684697 #66552]  INFO -- : See LICENSE and the LGPL-3.0 for licensing details.
+I, [2021-08-25T02:42:37.684768 #66552]  INFO -- : Upgrade to Sidekiq Pro for more features and support: https://sidekiq.org
+D, [2021-08-25T02:42:37.687647 #66552] DEBUG -- : Client Middleware: 
+D, [2021-08-25T02:42:37.687717 #66552] DEBUG -- : Server Middleware: 
+I, [2021-08-25T02:42:37.687759 #66552]  INFO -- : Starting processing, hit Ctrl-C to stop
+D, [2021-08-25T02:42:37.688000 #66552] DEBUG -- : {:queues=>["alert"], :labels=>[], :concurrency=>7, :require=>".", :environment=>nil, :timeout=>30, :poll_interval_average=>nil, :average_scheduled_poll_interval=>5, :error_handlers=>[#<Sidekiq::ExceptionHandler::Logger:0x0000561553742728>], :death_handlers=>[], :lifecycle_events=>{:startup=>[], :quiet=>[], :shutdown=>[], :heartbeat=>[]}, :dead_max_jobs=>10000, :dead_timeout_in_seconds=>15552000, :reloader=>#<Sidekiq::Rails::Reloader @app=GoormRailsApp::Application>, :pidfile=>"./tmp/pids/sidekiq.pid", :daemon=>true, :production=>{:verbose=>false, :logfile=>"./log/production_sidekiq.log", :concurrency=>7, :timeout=>5, :queues=>["alert"]}, :verbose=>true, :logfile=>"./log/development_sidekiq.log", :config_file=>"./config/sidekiq.yml", :strict=>true, :tag=>"daangn_intern", :identity=>"goorm:66552:eb23cb2b0705"}
+I, [2021-08-25T02:44:50.889211 #66552]  INFO -- : start
+I, [2021-08-25T02:44:51.157615 #66552]  INFO -- : fail
+W, [2021-08-25T02:44:51.157836 #66552]  WARN -- : {"context":"Job raised exception","job":{"retry":1,"queue":"alert","class":"ActiveJob::QueueAdapters::SidekiqAdapter::JobWrapper","wrapped":"AlertJob","args":[{"job_class":"AlertJob","job_id":"87748ee3-ab8b-440d-bbb5-d1a9389bf4a6","provider_job_id":null,"queue_name":"alert","priority":null,"arguments":["{\"post_username\": \"이수진\", \"post_title\": \"아이패드 팔아요~\" }"],"executions":0,"exception_executions":{},"locale":"en","timezone":"UTC","enqueued_at":"2021-08-25T02:44:50Z"}],"jid":"8904a46779dcb4dc1a50f13b","created_at":1629859490.8878367,"enqueued_at":1629859490.8880272},"jobstr":"{\"retry\":1,\"queue\":\"alert\",\"class\":\"ActiveJob::QueueAdapters::SidekiqAdapter::JobWrapper\",\"wrapped\":\"AlertJob\",\"args\":[{\"job_class\":\"AlertJob\",\"job_id\":\"87748ee3-ab8b-440d-bbb5-d1a9389bf4a6\",\"provider_job_id\":null,\"queue_name\":\"alert\",\"priority\":null,\"arguments\":[\"{\\\"post_username\\\": \\\"이수진\\\", \\\"post_title\\\": \\\"아이패드 팔아요~\\\" }\"],\"executions\":0,\"exception_executions\":{},\"locale\":\"en\",\"timezone\":\"UTC\",\"enqueued_at\":\"2021-08-25T02:44:50Z\"}],\"jid\":\"8904a46779dcb4dc1a50f13b\",\"created_at\":1629859490.8878367,\"enqueued_at\":1629859490.8880272}"}
+W, [2021-08-25T02:44:51.159152 #66552]  WARN -- : NoMethodError: undefined method `each' for #<ActiveRecord::QueryMethods::WhereChain:0x00007ffa1441a968>
+W, [2021-08-25T02:44:51.159201 #66552]  WARN -- : /workspace/daangn_intern/app/jobs/alert_job.rb:37:in `perform'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/execution.rb:40:in `block in perform_now'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/i18n-1.8.3/lib/i18n.rb:313:in `with_locale'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `instance_exec'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `instance_exec'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/logging.rb:25:in `block (4 levels) in <module:Logging>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/notifications.rb:180:in `block in instrument'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/notifications.rb:180:in `instrument'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/logging.rb:24:in `block (3 levels) in <module:Logging>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/logging.rb:45:in `block in tag_logger'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/tagged_logging.rb:80:in `block in tagged'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/tagged_logging.rb:28:in `tagged'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/tagged_logging.rb:80:in `tagged'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/logging.rb:45:in `tag_logger'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/logging.rb:21:in `block (2 levels) in <module:Logging>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `instance_exec'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/execution.rb:39:in `perform_now'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/execution.rb:25:in `block in execute'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/railtie.rb:43:in `block (4 levels) in <class:Railtie>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/execution_wrapper.rb:84:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/reloader.rb:72:in `block in wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/execution_wrapper.rb:84:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/reloader.rb:71:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/railtie.rb:42:in `block (3 levels) in <class:Railtie>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `instance_exec'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/execution.rb:23:in `execute'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/queue_adapters/sidekiq_adapter.rb:42:in `perform'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:196:in `execute_job'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:164:in `block (2 levels) in process'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/middleware/chain.rb:133:in `invoke'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:163:in `block in process'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:136:in `block (6 levels) in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/job_retry.rb:111:in `local'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:135:in `block (5 levels) in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/rails.rb:43:in `block in call'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/reloader.rb:72:in `block in wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/reloader.rb:71:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/rails.rb:42:in `call'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:131:in `block (4 levels) in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:257:in `stats'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:126:in `block (3 levels) in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/job_logger.rb:13:in `call'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:125:in `block (2 levels) in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/job_retry.rb:78:in `global'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:124:in `block in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/logger.rb:10:in `with'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/job_logger.rb:33:in `prepare'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:123:in `dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:162:in `process'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:78:in `process_one'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:68:in `run'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/util.rb:15:in `watchdog'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/util.rb:24:in `block in safe_thread'
+I, [2021-08-25T02:45:21.977328 #4706]  INFO -- : start
+D, [2021-08-25T02:45:21.978251 #4706] DEBUG -- : enqueued retry: {"retry":1,"queue":"alert","class":"ActiveJob::QueueAdapters::SidekiqAdapter::JobWrapper","wrapped":"AlertJob","args":[{"job_class":"AlertJob","job_id":"87748ee3-ab8b-440d-bbb5-d1a9389bf4a6","provider_job_id":null,"queue_name":"alert","priority":null,"arguments":["{\"post_username\": \"이수진\", \"post_title\": \"아이패드 팔아요~\" }"],"executions":0,"exception_executions":{},"locale":"en","timezone":"UTC","enqueued_at":"2021-08-25T02:44:50Z"}],"jid":"8904a46779dcb4dc1a50f13b","created_at":1629859490.8878367,"enqueued_at":1629859490.8880272,"error_message":"undefined method `each' for #<ActiveRecord::QueryMethods::WhereChain:0x00007ffa1441a968>","error_class":"NoMethodError","failed_at":1629859491.15254,"retry_count":0}
+I, [2021-08-25T02:45:22.156793 #4706]  INFO -- : Adding dead ActiveJob::QueueAdapters::SidekiqAdapter::JobWrapper job 8904a46779dcb4dc1a50f13b
+I, [2021-08-25T02:45:22.166519 #4706]  INFO -- : fail
+W, [2021-08-25T02:45:22.167341 #4706]  WARN -- : {"context":"Job raised exception","job":{"retry":1,"queue":"alert","class":"ActiveJob::QueueAdapters::SidekiqAdapter::JobWrapper","wrapped":"AlertJob","args":[{"job_class":"AlertJob","job_id":"87748ee3-ab8b-440d-bbb5-d1a9389bf4a6","provider_job_id":null,"queue_name":"alert","priority":null,"arguments":["{\"post_username\": \"이수진\", \"post_title\": \"아이패드 팔아요~\" }"],"executions":0,"exception_executions":{},"locale":"en","timezone":"UTC","enqueued_at":"2021-08-25T02:44:50Z"}],"jid":"8904a46779dcb4dc1a50f13b","created_at":1629859490.8878367,"enqueued_at":1629859521.976324,"error_message":"undefined method `each' for #<ActiveRecord::QueryMethods::WhereChain:0x00007ffa1441a968>","error_class":"NoMethodError","failed_at":1629859491.15254,"retry_count":0},"jobstr":"{\"retry\":1,\"queue\":\"alert\",\"class\":\"ActiveJob::QueueAdapters::SidekiqAdapter::JobWrapper\",\"wrapped\":\"AlertJob\",\"args\":[{\"job_class\":\"AlertJob\",\"job_id\":\"87748ee3-ab8b-440d-bbb5-d1a9389bf4a6\",\"provider_job_id\":null,\"queue_name\":\"alert\",\"priority\":null,\"arguments\":[\"{\\\"post_username\\\": \\\"이수진\\\", \\\"post_title\\\": \\\"아이패드 팔아요~\\\" }\"],\"executions\":0,\"exception_executions\":{},\"locale\":\"en\",\"timezone\":\"UTC\",\"enqueued_at\":\"2021-08-25T02:44:50Z\"}],\"jid\":\"8904a46779dcb4dc1a50f13b\",\"created_at\":1629859490.8878367,\"enqueued_at\":1629859521.976324,\"error_message\":\"undefined method `each' for #<ActiveRecord::QueryMethods::WhereChain:0x00007ffa1441a968>\",\"error_class\":\"NoMethodError\",\"failed_at\":1629859491.15254,\"retry_count\":0}"}
+W, [2021-08-25T02:45:22.168650 #4706]  WARN -- : NoMethodError: undefined method `each' for #<ActiveRecord::QueryMethods::WhereChain:0x00007fd9281411e0>
+W, [2021-08-25T02:45:22.168719 #4706]  WARN -- : /workspace/daangn_intern/app/jobs/alert_job.rb:37:in `perform'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/execution.rb:40:in `block in perform_now'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/i18n-1.8.3/lib/i18n.rb:313:in `with_locale'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `instance_exec'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `instance_exec'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/logging.rb:25:in `block (4 levels) in <module:Logging>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/notifications.rb:180:in `block in instrument'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/notifications.rb:180:in `instrument'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/logging.rb:24:in `block (3 levels) in <module:Logging>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/logging.rb:45:in `block in tag_logger'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/tagged_logging.rb:80:in `block in tagged'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/tagged_logging.rb:28:in `tagged'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/tagged_logging.rb:80:in `tagged'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/logging.rb:45:in `tag_logger'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/logging.rb:21:in `block (2 levels) in <module:Logging>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `instance_exec'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/execution.rb:39:in `perform_now'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/execution.rb:25:in `block in execute'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/railtie.rb:43:in `block (4 levels) in <class:Railtie>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/execution_wrapper.rb:84:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/reloader.rb:72:in `block in wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/execution_wrapper.rb:84:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/reloader.rb:71:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/railtie.rb:42:in `block (3 levels) in <class:Railtie>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `instance_exec'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/execution.rb:23:in `execute'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/queue_adapters/sidekiq_adapter.rb:42:in `perform'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:196:in `execute_job'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:164:in `block (2 levels) in process'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/middleware/chain.rb:133:in `invoke'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:163:in `block in process'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:136:in `block (6 levels) in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/job_retry.rb:111:in `local'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:135:in `block (5 levels) in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/rails.rb:43:in `block in call'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/reloader.rb:72:in `block in wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/reloader.rb:71:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/rails.rb:42:in `call'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:131:in `block (4 levels) in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:257:in `stats'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:126:in `block (3 levels) in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/job_logger.rb:13:in `call'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:125:in `block (2 levels) in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/job_retry.rb:78:in `global'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:124:in `block in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/logger.rb:10:in `with'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/job_logger.rb:33:in `prepare'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:123:in `dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:162:in `process'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:78:in `process_one'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:68:in `run'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/util.rb:15:in `watchdog'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/util.rb:24:in `block in safe_thread'
+I, [2021-08-25T02:48:55.523886 #66552]  INFO -- : start
+I, [2021-08-25T02:48:55.631505 #66552]  INFO -- : fail
+W, [2021-08-25T02:48:55.631630 #66552]  WARN -- : {"context":"Job raised exception","job":{"retry":1,"queue":"alert","class":"ActiveJob::QueueAdapters::SidekiqAdapter::JobWrapper","wrapped":"AlertJob","args":[{"job_class":"AlertJob","job_id":"34d8425c-7b0f-4b53-ac72-a0c0869c45d6","provider_job_id":null,"queue_name":"alert","priority":null,"arguments":["{\"post_username\": \"이수진\", \"post_title\": \"아이패드 팔아요~\" }"],"executions":0,"exception_executions":{},"locale":"en","timezone":"UTC","enqueued_at":"2021-08-25T02:48:55Z"}],"jid":"bbf34468fe6a15764574461b","created_at":1629859735.5232258,"enqueued_at":1629859735.5232794},"jobstr":"{\"retry\":1,\"queue\":\"alert\",\"class\":\"ActiveJob::QueueAdapters::SidekiqAdapter::JobWrapper\",\"wrapped\":\"AlertJob\",\"args\":[{\"job_class\":\"AlertJob\",\"job_id\":\"34d8425c-7b0f-4b53-ac72-a0c0869c45d6\",\"provider_job_id\":null,\"queue_name\":\"alert\",\"priority\":null,\"arguments\":[\"{\\\"post_username\\\": \\\"이수진\\\", \\\"post_title\\\": \\\"아이패드 팔아요~\\\" }\"],\"executions\":0,\"exception_executions\":{},\"locale\":\"en\",\"timezone\":\"UTC\",\"enqueued_at\":\"2021-08-25T02:48:55Z\"}],\"jid\":\"bbf34468fe6a15764574461b\",\"created_at\":1629859735.5232258,\"enqueued_at\":1629859735.5232794}"}
+W, [2021-08-25T02:48:55.631673 #66552]  WARN -- : NoMethodError: undefined method `include?' for nil:NilClass
+W, [2021-08-25T02:48:55.631707 #66552]  WARN -- : /workspace/daangn_intern/app/jobs/alert_job.rb:38:in `block in perform'
+/usr/local/lib/ruby/gems/2.6.0/gems/activerecord-6.0.3.2/lib/active_record/relation/delegation.rb:87:in `each'
+/usr/local/lib/ruby/gems/2.6.0/gems/activerecord-6.0.3.2/lib/active_record/relation/delegation.rb:87:in `each'
+/workspace/daangn_intern/app/jobs/alert_job.rb:37:in `perform'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/execution.rb:40:in `block in perform_now'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/i18n-1.8.3/lib/i18n.rb:313:in `with_locale'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `instance_exec'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `instance_exec'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/logging.rb:25:in `block (4 levels) in <module:Logging>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/notifications.rb:180:in `block in instrument'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/notifications.rb:180:in `instrument'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/logging.rb:24:in `block (3 levels) in <module:Logging>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/logging.rb:45:in `block in tag_logger'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/tagged_logging.rb:80:in `block in tagged'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/tagged_logging.rb:28:in `tagged'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/tagged_logging.rb:80:in `tagged'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/logging.rb:45:in `tag_logger'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/logging.rb:21:in `block (2 levels) in <module:Logging>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `instance_exec'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/execution.rb:39:in `perform_now'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/execution.rb:25:in `block in execute'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/railtie.rb:43:in `block (4 levels) in <class:Railtie>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/execution_wrapper.rb:84:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/reloader.rb:72:in `block in wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/execution_wrapper.rb:84:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/reloader.rb:71:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/railtie.rb:42:in `block (3 levels) in <class:Railtie>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `instance_exec'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/execution.rb:23:in `execute'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/queue_adapters/sidekiq_adapter.rb:42:in `perform'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:196:in `execute_job'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:164:in `block (2 levels) in process'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/middleware/chain.rb:133:in `invoke'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:163:in `block in process'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:136:in `block (6 levels) in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/job_retry.rb:111:in `local'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:135:in `block (5 levels) in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/rails.rb:43:in `block in call'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/reloader.rb:72:in `block in wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/reloader.rb:71:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/rails.rb:42:in `call'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:131:in `block (4 levels) in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:257:in `stats'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:126:in `block (3 levels) in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/job_logger.rb:13:in `call'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:125:in `block (2 levels) in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/job_retry.rb:78:in `global'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:124:in `block in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/logger.rb:10:in `with'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/job_logger.rb:33:in `prepare'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:123:in `dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:162:in `process'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:78:in `process_one'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:68:in `run'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/util.rb:15:in `watchdog'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/util.rb:24:in `block in safe_thread'
+D, [2021-08-25T02:49:38.138771 #60132] DEBUG -- : enqueued retry: {"retry":1,"queue":"alert","class":"ActiveJob::QueueAdapters::SidekiqAdapter::JobWrapper","wrapped":"AlertJob","args":[{"job_class":"AlertJob","job_id":"34d8425c-7b0f-4b53-ac72-a0c0869c45d6","provider_job_id":null,"queue_name":"alert","priority":null,"arguments":["{\"post_username\": \"이수진\", \"post_title\": \"아이패드 팔아요~\" }"],"executions":0,"exception_executions":{},"locale":"en","timezone":"UTC","enqueued_at":"2021-08-25T02:48:55Z"}],"jid":"bbf34468fe6a15764574461b","created_at":1629859735.5232258,"enqueued_at":1629859735.5232794,"error_message":"undefined method `include?' for nil:NilClass","error_class":"NoMethodError","failed_at":1629859735.6257715,"retry_count":0}
+I, [2021-08-25T02:49:38.138916 #4706]  INFO -- : start
+I, [2021-08-25T02:49:38.228922 #4706]  INFO -- : Adding dead ActiveJob::QueueAdapters::SidekiqAdapter::JobWrapper job bbf34468fe6a15764574461b
+I, [2021-08-25T02:49:38.232379 #4706]  INFO -- : fail
+W, [2021-08-25T02:49:38.232485 #4706]  WARN -- : {"context":"Job raised exception","job":{"retry":1,"queue":"alert","class":"ActiveJob::QueueAdapters::SidekiqAdapter::JobWrapper","wrapped":"AlertJob","args":[{"job_class":"AlertJob","job_id":"34d8425c-7b0f-4b53-ac72-a0c0869c45d6","provider_job_id":null,"queue_name":"alert","priority":null,"arguments":["{\"post_username\": \"이수진\", \"post_title\": \"아이패드 팔아요~\" }"],"executions":0,"exception_executions":{},"locale":"en","timezone":"UTC","enqueued_at":"2021-08-25T02:48:55Z"}],"jid":"bbf34468fe6a15764574461b","created_at":1629859735.5232258,"enqueued_at":1629859778.1384208,"error_message":"undefined method `include?' for nil:NilClass","error_class":"NoMethodError","failed_at":1629859735.6257715,"retry_count":0},"jobstr":"{\"retry\":1,\"queue\":\"alert\",\"class\":\"ActiveJob::QueueAdapters::SidekiqAdapter::JobWrapper\",\"wrapped\":\"AlertJob\",\"args\":[{\"job_class\":\"AlertJob\",\"job_id\":\"34d8425c-7b0f-4b53-ac72-a0c0869c45d6\",\"provider_job_id\":null,\"queue_name\":\"alert\",\"priority\":null,\"arguments\":[\"{\\\"post_username\\\": \\\"이수진\\\", \\\"post_title\\\": \\\"아이패드 팔아요~\\\" }\"],\"executions\":0,\"exception_executions\":{},\"locale\":\"en\",\"timezone\":\"UTC\",\"enqueued_at\":\"2021-08-25T02:48:55Z\"}],\"jid\":\"bbf34468fe6a15764574461b\",\"created_at\":1629859735.5232258,\"enqueued_at\":1629859778.1384208,\"error_message\":\"undefined method `include?' for nil:NilClass\",\"error_class\":\"NoMethodError\",\"failed_at\":1629859735.6257715,\"retry_count\":0}"}
+W, [2021-08-25T02:49:38.232523 #4706]  WARN -- : NoMethodError: undefined method `include?' for nil:NilClass
+W, [2021-08-25T02:49:38.232564 #4706]  WARN -- : /workspace/daangn_intern/app/jobs/alert_job.rb:38:in `block in perform'
+/usr/local/lib/ruby/gems/2.6.0/gems/activerecord-6.0.3.2/lib/active_record/relation/delegation.rb:87:in `each'
+/usr/local/lib/ruby/gems/2.6.0/gems/activerecord-6.0.3.2/lib/active_record/relation/delegation.rb:87:in `each'
+/workspace/daangn_intern/app/jobs/alert_job.rb:37:in `perform'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/execution.rb:40:in `block in perform_now'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/i18n-1.8.3/lib/i18n.rb:313:in `with_locale'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `instance_exec'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `instance_exec'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/logging.rb:25:in `block (4 levels) in <module:Logging>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/notifications.rb:180:in `block in instrument'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/notifications.rb:180:in `instrument'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/logging.rb:24:in `block (3 levels) in <module:Logging>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/logging.rb:45:in `block in tag_logger'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/tagged_logging.rb:80:in `block in tagged'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/tagged_logging.rb:28:in `tagged'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/tagged_logging.rb:80:in `tagged'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/logging.rb:45:in `tag_logger'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/logging.rb:21:in `block (2 levels) in <module:Logging>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `instance_exec'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/execution.rb:39:in `perform_now'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/execution.rb:25:in `block in execute'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/railtie.rb:43:in `block (4 levels) in <class:Railtie>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/execution_wrapper.rb:84:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/reloader.rb:72:in `block in wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/execution_wrapper.rb:84:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/reloader.rb:71:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/railtie.rb:42:in `block (3 levels) in <class:Railtie>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `instance_exec'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/execution.rb:23:in `execute'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/queue_adapters/sidekiq_adapter.rb:42:in `perform'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:196:in `execute_job'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:164:in `block (2 levels) in process'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/middleware/chain.rb:133:in `invoke'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:163:in `block in process'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:136:in `block (6 levels) in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/job_retry.rb:111:in `local'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:135:in `block (5 levels) in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/rails.rb:43:in `block in call'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/reloader.rb:72:in `block in wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/reloader.rb:71:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/rails.rb:42:in `call'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:131:in `block (4 levels) in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:257:in `stats'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:126:in `block (3 levels) in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/job_logger.rb:13:in `call'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:125:in `block (2 levels) in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/job_retry.rb:78:in `global'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:124:in `block in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/logger.rb:10:in `with'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/job_logger.rb:33:in `prepare'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:123:in `dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:162:in `process'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:78:in `process_one'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:68:in `run'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/util.rb:15:in `watchdog'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/util.rb:24:in `block in safe_thread'
+I, [2021-08-25T02:50:24.684486 #4706]  INFO -- : start
+I, [2021-08-25T02:50:24.997535 #4706]  INFO -- : done
+I, [2021-08-25T02:52:14.576790 #4706]  INFO -- : start
+I, [2021-08-25T02:52:14.856505 #4706]  INFO -- : done
+I, [2021-08-25T02:59:22.570337 #4706]  INFO -- : start
+I, [2021-08-25T02:59:22.650399 #4706]  INFO -- : fail
+W, [2021-08-25T02:59:22.650505 #4706]  WARN -- : {"context":"Job raised exception","job":{"retry":1,"queue":"alert","class":"ActiveJob::QueueAdapters::SidekiqAdapter::JobWrapper","wrapped":"AlertJob","args":[{"job_class":"AlertJob","job_id":"c68ba37b-89d2-40bc-bd54-1e1dc7b0c7b0","provider_job_id":null,"queue_name":"alert","priority":null,"arguments":["{\"post_username\": \"lee\", \"post_title\": \"맥북아이패드마우스애플펜슬\" }"],"executions":0,"exception_executions":{},"locale":"en","timezone":"UTC","enqueued_at":"2021-08-25T02:59:22Z"}],"jid":"f07511617d4e475850fef311","created_at":1629860362.5697691,"enqueued_at":1629860362.569819},"jobstr":"{\"retry\":1,\"queue\":\"alert\",\"class\":\"ActiveJob::QueueAdapters::SidekiqAdapter::JobWrapper\",\"wrapped\":\"AlertJob\",\"args\":[{\"job_class\":\"AlertJob\",\"job_id\":\"c68ba37b-89d2-40bc-bd54-1e1dc7b0c7b0\",\"provider_job_id\":null,\"queue_name\":\"alert\",\"priority\":null,\"arguments\":[\"{\\\"post_username\\\": \\\"lee\\\", \\\"post_title\\\": \\\"맥북아이패드마우스애플펜슬\\\" }\"],\"executions\":0,\"exception_executions\":{},\"locale\":\"en\",\"timezone\":\"UTC\",\"enqueued_at\":\"2021-08-25T02:59:22Z\"}],\"jid\":\"f07511617d4e475850fef311\",\"created_at\":1629860362.5697691,\"enqueued_at\":1629860362.569819}"}
+W, [2021-08-25T02:59:22.650571 #4706]  WARN -- : NameError: undefined local variable or method `word' for #<AlertJob:0x00007fd91c3a5c30>
+W, [2021-08-25T02:59:22.650606 #4706]  WARN -- : /workspace/daangn_intern/app/jobs/alert_job.rb:31:in `perform'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/execution.rb:40:in `block in perform_now'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/i18n-1.8.3/lib/i18n.rb:313:in `with_locale'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `instance_exec'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `instance_exec'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/logging.rb:25:in `block (4 levels) in <module:Logging>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/notifications.rb:180:in `block in instrument'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/notifications.rb:180:in `instrument'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/logging.rb:24:in `block (3 levels) in <module:Logging>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/logging.rb:45:in `block in tag_logger'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/tagged_logging.rb:80:in `block in tagged'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/tagged_logging.rb:28:in `tagged'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/tagged_logging.rb:80:in `tagged'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/logging.rb:45:in `tag_logger'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/logging.rb:21:in `block (2 levels) in <module:Logging>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `instance_exec'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/execution.rb:39:in `perform_now'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/execution.rb:25:in `block in execute'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/railtie.rb:43:in `block (4 levels) in <class:Railtie>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/execution_wrapper.rb:84:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/reloader.rb:72:in `block in wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/execution_wrapper.rb:84:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/reloader.rb:71:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/railtie.rb:42:in `block (3 levels) in <class:Railtie>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `instance_exec'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/execution.rb:23:in `execute'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/queue_adapters/sidekiq_adapter.rb:42:in `perform'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:196:in `execute_job'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:164:in `block (2 levels) in process'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/middleware/chain.rb:133:in `invoke'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:163:in `block in process'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:136:in `block (6 levels) in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/job_retry.rb:111:in `local'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:135:in `block (5 levels) in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/rails.rb:43:in `block in call'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/reloader.rb:72:in `block in wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/reloader.rb:71:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/rails.rb:42:in `call'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:131:in `block (4 levels) in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:257:in `stats'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:126:in `block (3 levels) in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/job_logger.rb:13:in `call'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:125:in `block (2 levels) in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/job_retry.rb:78:in `global'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:124:in `block in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/logger.rb:10:in `with'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/job_logger.rb:33:in `prepare'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:123:in `dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:162:in `process'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:78:in `process_one'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:68:in `run'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/util.rb:15:in `watchdog'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/util.rb:24:in `block in safe_thread'
+I, [2021-08-25T02:59:51.857281 #66552]  INFO -- : start
+D, [2021-08-25T02:59:51.861893 #60132] DEBUG -- : enqueued retry: {"retry":1,"queue":"alert","class":"ActiveJob::QueueAdapters::SidekiqAdapter::JobWrapper","wrapped":"AlertJob","args":[{"job_class":"AlertJob","job_id":"c68ba37b-89d2-40bc-bd54-1e1dc7b0c7b0","provider_job_id":null,"queue_name":"alert","priority":null,"arguments":["{\"post_username\": \"lee\", \"post_title\": \"맥북아이패드마우스애플펜슬\" }"],"executions":0,"exception_executions":{},"locale":"en","timezone":"UTC","enqueued_at":"2021-08-25T02:59:22Z"}],"jid":"f07511617d4e475850fef311","created_at":1629860362.5697691,"enqueued_at":1629860362.569819,"error_message":"undefined local variable or method `word' for #<AlertJob:0x00007fd91c3a5c30>","error_class":"NameError","failed_at":1629860362.647529,"retry_count":0}
+I, [2021-08-25T02:59:51.937469 #66552]  INFO -- : Adding dead ActiveJob::QueueAdapters::SidekiqAdapter::JobWrapper job f07511617d4e475850fef311
+I, [2021-08-25T02:59:51.943582 #66552]  INFO -- : fail
+W, [2021-08-25T02:59:51.943708 #66552]  WARN -- : {"context":"Job raised exception","job":{"retry":1,"queue":"alert","class":"ActiveJob::QueueAdapters::SidekiqAdapter::JobWrapper","wrapped":"AlertJob","args":[{"job_class":"AlertJob","job_id":"c68ba37b-89d2-40bc-bd54-1e1dc7b0c7b0","provider_job_id":null,"queue_name":"alert","priority":null,"arguments":["{\"post_username\": \"lee\", \"post_title\": \"맥북아이패드마우스애플펜슬\" }"],"executions":0,"exception_executions":{},"locale":"en","timezone":"UTC","enqueued_at":"2021-08-25T02:59:22Z"}],"jid":"f07511617d4e475850fef311","created_at":1629860362.5697691,"enqueued_at":1629860391.8568106,"error_message":"undefined local variable or method `word' for #<AlertJob:0x00007fd91c3a5c30>","error_class":"NameError","failed_at":1629860362.647529,"retry_count":0},"jobstr":"{\"retry\":1,\"queue\":\"alert\",\"class\":\"ActiveJob::QueueAdapters::SidekiqAdapter::JobWrapper\",\"wrapped\":\"AlertJob\",\"args\":[{\"job_class\":\"AlertJob\",\"job_id\":\"c68ba37b-89d2-40bc-bd54-1e1dc7b0c7b0\",\"provider_job_id\":null,\"queue_name\":\"alert\",\"priority\":null,\"arguments\":[\"{\\\"post_username\\\": \\\"lee\\\", \\\"post_title\\\": \\\"맥북아이패드마우스애플펜슬\\\" }\"],\"executions\":0,\"exception_executions\":{},\"locale\":\"en\",\"timezone\":\"UTC\",\"enqueued_at\":\"2021-08-25T02:59:22Z\"}],\"jid\":\"f07511617d4e475850fef311\",\"created_at\":1629860362.5697691,\"enqueued_at\":1629860391.8568106,\"error_message\":\"undefined local variable or method `word' for #<AlertJob:0x00007fd91c3a5c30>\",\"error_class\":\"NameError\",\"failed_at\":1629860362.647529,\"retry_count\":0}"}
+W, [2021-08-25T02:59:51.943789 #66552]  WARN -- : NameError: undefined local variable or method `word' for #<AlertJob:0x00007ffa14468438>
+W, [2021-08-25T02:59:51.943825 #66552]  WARN -- : /workspace/daangn_intern/app/jobs/alert_job.rb:31:in `perform'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/execution.rb:40:in `block in perform_now'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/i18n-1.8.3/lib/i18n.rb:313:in `with_locale'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `instance_exec'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `instance_exec'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/logging.rb:25:in `block (4 levels) in <module:Logging>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/notifications.rb:180:in `block in instrument'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/notifications.rb:180:in `instrument'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/logging.rb:24:in `block (3 levels) in <module:Logging>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/logging.rb:45:in `block in tag_logger'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/tagged_logging.rb:80:in `block in tagged'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/tagged_logging.rb:28:in `tagged'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/tagged_logging.rb:80:in `tagged'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/logging.rb:45:in `tag_logger'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/logging.rb:21:in `block (2 levels) in <module:Logging>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `instance_exec'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/execution.rb:39:in `perform_now'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/execution.rb:25:in `block in execute'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/railtie.rb:43:in `block (4 levels) in <class:Railtie>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/execution_wrapper.rb:84:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/reloader.rb:72:in `block in wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/execution_wrapper.rb:84:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/reloader.rb:71:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/railtie.rb:42:in `block (3 levels) in <class:Railtie>'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `instance_exec'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/execution.rb:23:in `execute'
+/usr/local/lib/ruby/gems/2.6.0/gems/activejob-6.0.3.2/lib/active_job/queue_adapters/sidekiq_adapter.rb:42:in `perform'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:196:in `execute_job'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:164:in `block (2 levels) in process'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/middleware/chain.rb:133:in `invoke'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:163:in `block in process'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:136:in `block (6 levels) in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/job_retry.rb:111:in `local'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:135:in `block (5 levels) in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/rails.rb:43:in `block in call'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/reloader.rb:72:in `block in wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-6.0.3.2/lib/active_support/reloader.rb:71:in `wrap'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/rails.rb:42:in `call'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:131:in `block (4 levels) in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:257:in `stats'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:126:in `block (3 levels) in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/job_logger.rb:13:in `call'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:125:in `block (2 levels) in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/job_retry.rb:78:in `global'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:124:in `block in dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/logger.rb:10:in `with'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/job_logger.rb:33:in `prepare'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:123:in `dispatch'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:162:in `process'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:78:in `process_one'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/processor.rb:68:in `run'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/util.rb:15:in `watchdog'
+/usr/local/lib/ruby/gems/2.6.0/gems/sidekiq-6.0.7/lib/sidekiq/util.rb:24:in `block in safe_thread'
+I, [2021-08-25T05:08:09.463254 #4706]  INFO -- : start
+I, [2021-08-25T05:08:09.822568 #4706]  INFO -- : done
+D, [2021-08-25T05:08:45.843569 #66552] DEBUG -- : Got INT signal
+I, [2021-08-25T05:08:45.843687 #66552]  INFO -- : Shutting down
+I, [2021-08-25T05:08:45.843721 #66552]  INFO -- : Terminating quiet workers
+I, [2021-08-25T05:08:45.843821 #66552]  INFO -- : Scheduler exiting...
+I, [2021-08-25T05:08:45.944064 #66552]  INFO -- : Pausing to allow workers to finish...
+I, [2021-08-25T05:08:47.046282 #66552]  INFO -- : Bye!
